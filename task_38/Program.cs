@@ -32,9 +32,7 @@ for (int i = 0; i < array.Length; i++)
     {
         max = array[i];
     }
-        
-    }
-
+}
 difference = max - min;
 Console.WriteLine($"Минимальный элемент {min}");
 Console.WriteLine($"Минимальный элемент {max}");
