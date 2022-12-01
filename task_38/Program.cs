@@ -35,7 +35,7 @@ for (int i = 0; i < array.Length; i++)
         
     }
 
-difference = max + min;
-Console.WriteLine(min);
-Console.WriteLine(max);
-Console.WriteLine(difference);
+difference = max - min;
+Console.WriteLine($"Минимальный элемент {min}");
+Console.WriteLine($"Минимальный элемент {max}");
+Console.WriteLine($"Разница равна {difference}");
